@@ -16,7 +16,7 @@ pipeline  {
             steps {
                 echo 'Creating docker image ...'
                 dir('.'){
-                    sh "docker build -t usergithub12/students-book . "
+                    sh "docker build -t ann1h1lation/students-book . "
                 }
             }
         }
